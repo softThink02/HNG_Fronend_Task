@@ -1,0 +1,34 @@
+.parent_div {
+    display : flex;
+    justify-content: space-between;
+    width: 90%;
+    box-sizing: border-box;
+    margin : auto;
+    padding-top : 2rem;
+}
+
+.parent_div p:nth-child(1) {
+    font-weight: bold;
+}
+
+.parent_div p:nth-child(3) {
+    font-weight: 800;
+}
+
+@media (max-width : 500px) {
+    .parent_div {
+        display : flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        box-sizing: border-box;
+        margin : 0;
+        margin-left : 1rem;
+        padding-top : 1rem;
+    }
+
+    .parent_div p {
+        margin : 0;
+        padding : 4px;
+    }
+}

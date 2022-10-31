@@ -1,0 +1,35 @@
+.layout_class {
+    box-sizing : border-box;
+    margin : 0;
+    border : 0;
+    width : 100%;
+}
+
+
+.icon  {
+    position  : absolute;
+    color : #98A2B3;
+    left : 80%;
+    top : 5%;
+}
+
+.icon_first {
+    width : 24px;
+    height : 24px;
+}
+
+.icon_second {
+    display : none;
+}
+
+@media (max-width : 500px) {
+    .icon_second {
+        width : 24px;
+        height : 24px;
+        display : block;
+    }
+    
+    .icon_first {
+        display : none;
+    }
+}

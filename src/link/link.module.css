@@ -1,0 +1,49 @@
+.parent_div {
+    display : flex;
+    flex-direction : column;
+    margin : auto;
+    width : 90%;
+    margin-top : 10vh;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.button_class {
+    outline : none;
+    display: block;
+    margin : auto;
+    margin-top : 12px;
+    margin-bottom: 12px;
+    width: 100%;
+    font-size: large;
+    font-weight: 400;
+    border : 1px;
+    border-radius : 8px;
+
+    height: 76px;
+    left: 0px;
+    top: 0px;
+    padding: 24px 32px 24px 32px;
+
+}
+
+.p_cls {
+    display: flex;
+    justify-content: center;
+    padding : 16px;
+    margin : auto;
+    margin-bottom: 32px;
+    margin-top: -4rem;
+    width: 92%;
+    font-size: large;
+    font-weight: 1000;
+}
+
+.link_class {
+    text-decoration : none;
+}
+
+.link_class_two {
+    text-decoration: none;
+    color : black;
+}

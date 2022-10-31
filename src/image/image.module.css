@@ -1,0 +1,12 @@
+.container {
+    display : flex;
+    justify-content: center;
+    width : 9em;
+    background : url('./profile.jpg') no-repeat 44% 26%;
+    object-fit: cover;
+    height : 9rem;
+    margin : auto;
+    margin-top: 10vh;
+    box-sizing: border-box;
+    border-radius : 50%;
+}
